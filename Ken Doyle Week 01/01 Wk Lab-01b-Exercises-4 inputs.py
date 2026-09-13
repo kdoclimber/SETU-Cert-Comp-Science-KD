@@ -1,0 +1,6 @@
+numOne = float(input('Input Number One: '))
+numTwo = float(input('Input Number Two: '))
+print(f'Sum of Number One and Number Two = {numOne+numTwo:.2f}')
+print(f'Difference between Number One and Number Two = {numOne-numTwo:.2f}')
+print(f'Product of Number One and Number Two = {numOne * numTwo:.2f}')
+print(f'Quotient of Number One and Number Two = {numOne / numTwo:.2f}')
