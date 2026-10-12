@@ -1,0 +1,28 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    font: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(207 232 220);
+    padding: 1em;
+    float:left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/*class shows the background colour*/
+.title-paragraph {
+    background-color: lightblue;
+    margin-left: 15px;
+}
+
+/*class 'clears' second paragraph left*/
+.content-paragraph {
+    clear: left;
+}

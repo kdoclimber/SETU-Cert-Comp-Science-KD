@@ -1,0 +1,34 @@
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: small;
+  line-height: 1.6em;
+}
+
+h1,
+h2 {
+  color: #007e7e;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+p {
+  color: maroon;
+}
+/* class for special h2 */
+.special { color: red; }
+
+/* class favourites on the index  page */
+.blue_favourites {
+  color: blue;
+}
+/* class active page menu */
+.active {
+  color: rgb(255, 102, 0);
+}

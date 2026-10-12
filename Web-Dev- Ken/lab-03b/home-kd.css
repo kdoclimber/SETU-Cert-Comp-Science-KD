@@ -1,0 +1,176 @@
+.container {
+  display: grid;
+  grid-template-columns: 5% 18% 63% 5%;
+  grid-gap: 3%;
+}
+
+#header {
+  grid-column-start: 2;
+  grid-column-end : span 2;
+  border : solid 1px;
+
+}
+
+#navigation {
+  grid-column-start: 2;
+  border : solid 1px;
+}
+#maincontent {
+  grid-column-start: 3;
+  border : solid 1px;
+  display: grid;
+  grid-template-columns: 70% 27%;
+  grid-gap: 3%;
+}
+
+#primary {
+  grid-column-start: 1;
+  border : solid 1px;
+}
+#primary-wrapper{
+
+}
+
+#primary-content-top{
+  grid-column-start: 1;
+  border : solid 4px;
+  display: grid;
+  grid-template-columns: 70% 27%;
+  grid-gap: 3%;
+}
+
+#primary-p1-p2-wrapper{
+ /*grid-column-start: 1;
+  border : solid 4px;
+  display: grid;
+  grid-template-columns: 70% 27%;
+  grid-gap: 3%;*/
+}
+
+#primary-p1-p2-image{
+  grid-column-start: 2;
+  border : solid 1px;
+}
+#primary-image{
+
+}
+#primary-image img {
+  width: 200px;
+  float: right;
+  height: auto;
+  margin: 10px;
+}
+
+.placeholder-primaryimage{
+  width: 50px;
+  float: center;
+  height: auto;
+  margin: 10px;
+}
+
+#primary-content-middle{
+
+}
+
+#primary-content-under-image{
+
+}
+
+.placeholderimage{
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+}
+
+.centerimage-01{
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 200px;
+  height: auto;
+}
+.centerimage-02{
+  border: 1px solid grey;
+  border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+}
+.centerimage-03{
+  border: 1px solid grey;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+#secondary {
+  grid-column-start: 2;
+  border : solid 1px;
+}
+
+.secondary-image-right{
+  width: 50px;
+  float: right;
+  margin: 10px;
+}
+
+/* lots of playing below*/
+.secondary-text-left{
+   float: left;
+   width: 100px;
+}
+.secondary-placeholderimage-right{
+  width: 50px;
+  float: right;
+    /*height: auto;
+margin: 10px;*/
+  
+}
+.secondary-placeholderimage-01{
+  border: 1px solid grey;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  width: 20%;
+  text-align: right;
+}
+
+.secondary-placeholderimage-02{
+    float: right;
+    margin: 10px;
+    width: 20%;
+    height: auto;
+}
+
+.secondary-img{
+  /*https://www.geeksforgeeks.org/css/how-to-align-images-in-css/*/
+  display: flex;
+  justify-content: space-between;
+  /* Adjust as needed: flex-start, center, space-between, space-around */
+  align-items: right;
+  height: 100vh;
+}
+.secondary-placeholderimage-03{
+   width: 20%;
+   height: auto;
+}
+
+.secondary-img-04{
+  /*https://www.geeksforgeeks.org/css/how-to-align-images-in-css/*/
+  display: flex;
+  justify-content: space-between;
+  /* Adjust as needed: flex-start, center, space-between, space-around */
+  align-items: right;
+  height: 100vh;
+}
+.secondary-img-04 img{
+   width: 20%;
+   height: auto;
+}
+
+
+#footer {
+  grid-column-start: 2;
+  grid-column-end : span 2;
+  border : solid 1px;
+}

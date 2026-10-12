@@ -1,0 +1,78 @@
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: small;
+  line-height: 1.6em;
+}
+
+h1,
+h2 {
+  color: #007e7e;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+p {
+  color: maroon;
+}
+/* class for special h2 */
+.special { color: red; }
+
+.blue_favourites {
+  color: blue;;
+}
+.guarantee {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #a7cece;
+  margin: 30px;
+  background-image: url(images/background.gif) ;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 150px;
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  border-color: white;
+  border-width: 1px;
+  border-style: dashed;
+}
+.container {
+  display: grid;
+  grid-template-columns: 5% 55% 20% 5%;
+  grid-gap: 5%;
+}
+#maincontent {
+  grid-column-start: 2;
+}
+
+#sidebar {
+  grid-column-start: 3;
+}
+.sidebar-img {
+  width: 190px;
+  display: block;
+}
+
+
+
+/*https://www.w3schools.com/css/css3_image_center.asp*/
+/*<img> is an inline element */
+/*so the image this class is attached to has to be a block-level element */
+/* width has to be defined, it must be smaller than the width of the page*/
+.bannerimage {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+

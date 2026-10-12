@@ -1,0 +1,9 @@
+#center-image-p02 img {
+    float: right;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: red;
+    width: 300px;
+    height: auto;
+
+}

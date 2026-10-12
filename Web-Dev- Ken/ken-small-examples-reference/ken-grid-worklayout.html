@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ken Grid Work Layout</title>
+	<link rel="stylesheet" type="text/css" href="ken-grid-worklayout.css">
+	<link rel="stylesheet" type="text/css" href="ken-boxes.css">
+</head>
+<body>
+	<div id="container-fullpage">
+		<div id="banner">
+			<p>inside banner</p>
+
+		</div>
+		<div class="container">
+			<!--<p>inside container begins</p>--><!-- this expands container, divs below become offset-->
+			
+			<div id="maincontent">
+				<div id="maincontent-a">
+					<p>inside maincontent-a begins</p>
+					<div  id="mc-01">
+						<p>inside mc-01</p>
+
+						<div  id="mc-01-a">
+							<p>inside mc-01-a</p>
+						</div><!--end of mc-01-a-->
+
+						<div id="mc-01-b">
+							<p>inside mc-01-b</p>
+						</div><!--end of mc-01-b-->
+						
+					</div><!--end of mc-01-->
+				</div><!--end of maincontent-a-->
+
+
+				<div id="maincontent-b">
+					<p>inside maincontent-b begins grid-column-start: 2;</p>
+					<div class="left box">1</div>
+					<div class="right box">2: is called to the right first</div>
+					<div class="right box">3: is called next, it is stacked against 2</div>
+						<p>
+							MAINCONTENT-B: P: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique
+							sapien ac erat tincidunt, sit amet dignissim lectus vulputate. Donec id
+							iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa
+							aliquet tincidunt vel in massa. Phasellus feugiat est vel leo finibus
+							congue.
+						</p>
+				</div><!--end of maincontent-b-->
+			</div><!--end of maincontent-->
+
+			<div id="sidebar">
+				<p>
+					SIDEBAR: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique
+					sapien ac erat tincidunt, sit amet dignissim lectus vulputate. Donec id
+					iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa
+					aliquet tincidunt vel in massa. Phasellus feugiat est vel leo finibus
+					congue.
+				</p>
+			</div><!--end of sidebar-->
+			<!--<p>inside container ends</p>--><!-- this expands container, divs above become offset-->
+		</div><!--end of container-->
+	</div><!--end of container-fullpage-->
+</body>
+</html>

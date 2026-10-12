@@ -1,0 +1,37 @@
+#container-fullpage {
+
+
+}
+.container {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 5% 60% 30% 5%;
+}
+#banner{
+grid-column-start: 1;/*starts ar beginning of column 1*/
+background-color: green;
+}
+#maincontent{
+grid-column-start: 2;/*starts ar beginning of column 2*/
+}
+
+#maincontent-a{
+  background-color:blueviolet;
+}
+
+#maincontent-b{
+  background-color: blue;
+}
+#maincontent-b p{
+  background-color: rgb(192, 255, 216);
+}
+#mc-01{
+  background-color: brown;
+}
+#mc-02{
+  background-color:bisque;
+}
+
+#sidebar {
+  grid-column-start: 3;
+}
