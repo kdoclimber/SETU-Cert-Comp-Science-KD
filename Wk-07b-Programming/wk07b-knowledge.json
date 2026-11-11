@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {"key": "cable_connected", "text": "Is the power cable connected?"},
+    {"key": "power_on", "text": "Does the computer turn on?"},
+    {"key": "display_on", "text": "Is there an image on the screen?"}
+  ],
+  "rules": [
+    {"when": {"cable_connected": "no"}, "advice": "1: Plug the power cable in! as soon as cable_connected = no all else is ignored "},
+    {"when": {"cable_connected": "yes", "power_on": "yes"}, "advice": "2: Your Laptop battery may be flat"},
+    {"when": {"cable_connected": "no", "power_on": "yes", "display_on": "no"}, "advice": "3: Your Laptop battery may be flat"},
+    {"when": {"cable_connected": "yes", "power_on": "no"}, "advice": "4: Check the power cable and socket."},
+    {"when": {"power_on": "yes", "display_on": "no"}, "advice": "5: Check the monitor connection."}
+  ]
+}

@@ -1,0 +1,91 @@
+[
+    {
+        "time": "2026-11-11T21:14:25",
+        "answers": {
+            "power_on": "yes",
+            "display_on": "no"
+        },
+        "advice": "Check the monitor connection."
+    },
+    {
+        "time": "2026-11-11T21:21:28",
+        "answers": {
+            "cable_connected": "no",
+            "power_on": "no",
+            "display_on": "no"
+        },
+        "advice": "Plug the power cable into the power socket"
+    },
+    {
+        "time": "2026-11-11T21:27:39",
+        "answers": {
+            "cable_connected": "no",
+            "power_on": "yes",
+            "display_on": "no"
+        },
+        "advice": "Plug the power cable into the power socket"
+    },
+    {
+        "time": "2026-11-11T21:33:31",
+        "answers": {
+            "cable_connected": "no",
+            "power_on": "yes",
+            "display_on": "yes"
+        },
+        "advice": "Plug the power cable into the power socket"
+    },
+    {
+        "time": "2026-11-11T21:34:06",
+        "answers": {
+            "cable_connected": "no",
+            "power_on": "yes",
+            "display_on": "no"
+        },
+        "advice": "Plug the power cable into the power socket"
+    },
+    {
+        "time": "2026-11-11T21:35:12",
+        "answers": {
+            "cable_connected": "no",
+            "power_on": "yes",
+            "display_on": "no"
+        },
+        "advice": "Plug the power cable into the power socket"
+    },
+    {
+        "time": "2026-11-11T21:37:03",
+        "answers": {
+            "cable_connected": "no",
+            "power_on": "yes",
+            "display_on": "no"
+        },
+        "advice": "Plug the power cable into the power socket"
+    },
+    {
+        "time": "2026-11-11T21:37:47",
+        "answers": {
+            "cable_connected": "no",
+            "power_on": "yes",
+            "display_on": "no"
+        },
+        "advice": "1: Plug the power cable into the power socket"
+    },
+    {
+        "time": "2026-11-11T21:41:33",
+        "answers": {
+            "cable_connected": "no",
+            "power_on": "yes",
+            "display_on": "no"
+        },
+        "advice": "1: Plug the power cable into the power socket"
+    },
+    {
+        "time": "2026-11-11T21:46:17",
+        "answers": {
+            "cable_connected": "no",
+            "power_on": "no",
+            "display_on": "yes"
+        },
+        "advice": "1: Plug the power cable int! as soon as cable_connected = no all else is ignored "
+    }
+]
