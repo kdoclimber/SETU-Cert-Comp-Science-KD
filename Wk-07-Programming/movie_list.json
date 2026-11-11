@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Cool Hand Luke",
+        "year": 1966,
+        "rating": 5
+    },
+    {
+        "title": "E.T.",
+        "year": 1979,
+        "rating": 1
+    },
+    {
+        "title": "kens movie 3",
+        "year": 2026,
+        "rating": 5
+    },
+    {
+        "title": "test6",
+        "year": 2026,
+        "rating": 5
+    },
+    {
+        "title": "another movie",
+        "year": 2026,
+        "rating": 2
+    },
+    {
+        "title": "fd",
+        "year": 4,
+        "rating": 3
+    },
+    {
+        "title": "test",
+        "year": 2029,
+        "rating": 1
+    }
+]

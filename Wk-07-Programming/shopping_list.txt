@@ -1,0 +1,5 @@
+Shopping List
+Item: ice - Number of Items: 1
+Shopping List
+Item: blood - Number of Items: 2
+read print file from inside add item
